@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JanaJov Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/web portfolio/fontawesome/css/all.min.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jana Jovanović</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">UX/UI Designer</p>
+            <img src="images/profile-img-04.jpg" alt="a picture of Jane Jovanovic smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>UX/UI Design</h3>
+                    <p> UX design is all about identifying and solving user problems. 
+                        UX design usually comes first in the product development process, followed by UI.
+                        UI design is all about creating intuitive, aesthetically-pleasing, interactive interfaces.  
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Front-End</h3>
+                    <p>The frontend is the part of the website users can see and interact with such as the graphical 
+                        user interface (GUI) and the command line including the 
+                        design, navigating menus, texts, images, videos, etc. 
+                        </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Digital Painting</h3>
+                    <p>Digital painting is the process of painting on a tablet and creating artwork digitally on a computer. 
+                    This is done through painting software that uses brushes much like traditional painting.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">I aspire to be a Full-Stack UX/UI Designer</p>
+           
+           <div class="about-me__body">
+               <p>Hi, I'm a 25-year-old living in Niš Serbia. 
+                   I've been an athlete for most of my life, for 13 years 
+                   I've played volleyball and won many awards. 
+                   I love painting, I started painting with acrylic paint and then shifted 
+                   to digital painting. I am fond of music. board games, marketing, coding, dancing etc.
+            </p>
+               <p>I finished my master's degree in 2021, and that's where my journey in adulthood begins. 
+                   Given my education, I believe that I have adequate predispositions for the successful and quality 
+                   performance of tasks, but I do lack experience. 
+                   I'm very excited to dive into this next chapter of my life. 
+                   And I hope your company will be a great stepping stone for my future development.  
+                   I take delight in being a team player, communicative, positive, organized, detailed, 
+                   and respectful to all. I'm used to working under pressure and I love all of the creative processes. 
+                   I enjoy looking for the best possible solution to a problem and don't give up until I find it.</p>
+           </div>
+           
+           <img src="images/img-profile-jana-3.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item-02.html" class="portfolio__item">
+                    <img src="images/portfolio-item-02.png" alt="" class="portfolio__img"
+                    height="218px">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item-07.html" class="portfolio__item">
+                    <img src="images/portfolio-item-07.png" alt="" class="portfolio__img"
+                    height="218px">
+                </a>
+                
+                <!-- Portfolio item 11 -->
+                <a href="https://www.janajovanovic.dev/" class="portfolio__item" target="_blank">
+                    <img src="images/potfolio-item-11.png" alt="" class="portfolio__img" height="218px">
+                </a> 
+
+                <!-- Portfolio item 10 -->
+                <a href="portfolio-item-10.html" class="portfolio__item">
+                    <img src="images/portfolio-item-10.png" alt="" class="portfolio__img" height="218px">
+                </a> 
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:janaj9976@gmail.com" class="footer__link">janaj9976@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"  href="https://www.linkedin.com/in/jana-jovanovi%C4%87-4808a120b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFgCvgWXPT6ye3Yq9lgvs2g%3D%3D" target="_blank">
+                       <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/janaa_jov/" target="_blank">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/jana.jovanovic.7547/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Naja97/portfolio.github.io" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="javaScript/index.js"></script>
+        
+    </body>
+</html>
